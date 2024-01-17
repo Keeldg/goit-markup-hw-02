@@ -64,7 +64,13 @@ a {
 .contacts-links .contacts-post:hover {
   color: #404bbf;
 }
+.contacts-links .contacts-post:focus {
+  color: #404bbf;
+}
 .contacts-links .contacts-tel:hover {
+  color: #404bbf;
+}
+.contacts-links .contacts-tel:focus {
   color: #404bbf;
 }
 
@@ -167,16 +173,17 @@ a {
   text-transform: capitalize;
 }
 .portfolio-name {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5; /* 120% */
+  line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
 }
 .portfolio-par {
   font-size: 16px;
   font-style: normal;
-  line-height: 1.5px; /* 150% */
-  letter-spacing: 0.32px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
 }
 
 /*Footer*/
@@ -195,10 +202,10 @@ a {
 
 .footer-logo-web {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.31; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
