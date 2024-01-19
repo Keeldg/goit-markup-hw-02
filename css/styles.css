@@ -55,36 +55,28 @@ a {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.contacts-links .contacts-post {
-  color: #434455;
-}
-.contacts-links .contacts-tel {
-  color: #434455;
-}
-.contacts-links .contacts-post:hover {
-  color: #404bbf;
-}
-.contacts-links .contacts-post:focus {
-  color: #404bbf;
-}
-.contacts-links .contacts-tel:hover {
-  color: #404bbf;
-}
-.contacts-links .contacts-tel:focus {
-  color: #404bbf;
-}
-
 .contacts-tel {
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.contacts-links .contacts-post,
+.contacts-tel {
+  color: #434455;
+}
+
+.contacts-links .contacts-post,
+.contacts-tel:hover {
+  color: #404bbf;
+}
+.contacts-links .contacts-post,
+.contacts-tel:focus {
+  color: #404bbf;
 }
 
 /*Section 1 Hero image*/
 .image {
   color: #fff;
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 .image-title {
   text-align: center;
@@ -183,7 +175,7 @@ a {
   font-size: 16px;
   font-style: normal;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
 }
 
 /*Footer*/
@@ -192,10 +184,10 @@ a {
 }
 .footer-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.31; /* 116.667% */
+  line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -215,4 +207,4 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-/*2024 01 17*/
+/*2024 01 19*/
