@@ -47,26 +47,22 @@ a {
   color: #404bbf;
 }
 
-.contacts-links {
-  color: #434455;
+.contacts {
   font-style: normal;
+}
+.contacts-links {
   font-size: 16px;
-}
-.contacts-post {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.contacts-tel {
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+.contacts-links-info {
+  color: #434455;
 }
 
-.contacts-links .contacts-post,
-.contacts-tel:hover {
+.contacts-links .contacts-links-info:hover {
   color: #404bbf;
 }
-.contacts-links .contacts-post,
-.contacts-tel:focus {
+.contacts-links .contacts-links-info:focus {
   color: #404bbf;
 }
 
