@@ -47,7 +47,8 @@ a {
   color: #404bbf;
 }
 
-.contacts {
+.contacts-links {
+  color: #434455;
   font-style: normal;
   font-size: 16px;
 }
@@ -58,10 +59,6 @@ a {
 .contacts-tel {
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
-.contacts-links .contacts-post,
-.contacts-tel {
-  color: #434455;
 }
 
 .contacts-links .contacts-post,
@@ -173,9 +170,8 @@ a {
 }
 .portfolio-par {
   font-size: 16px;
-  font-style: normal;
-  line-height: 1.5; /* 150% */
-  letter-spacing: -0.02em;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 /*Footer*/
